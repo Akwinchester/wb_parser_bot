@@ -35,12 +35,13 @@
 
 1. Склонируйте репозиторий:
    ```bash
-   git clone https://github.com/your-repo/telegram-wb-bot.git
-   cd telegram-wb-bot
+   git clone https://github.com/Akwinchester/wb_parser_bot
+   cd wb_parser_bot
    ```
 
 2. Установите зависимости:
    ```bash
+   python3 -m venv env
    pip install -r requirements.txt
    ```
 
