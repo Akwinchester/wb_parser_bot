@@ -59,7 +59,7 @@
 
 5. Запустите бота:
    ```bash
-   python bot.py
+   python3 main.py
    ```
 
 ---
