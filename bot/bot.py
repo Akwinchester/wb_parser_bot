@@ -102,6 +102,7 @@ async def process_password(message: Message, state: FSMContext):
         data['login'].append(chat_id)
         save_user_data(data)
         await message.answer("Вы успешно авторизовались.")
+        await message.answer(INSTRUCTION_BOT)
         # Сбрасываем состояние
         await state.clear()
     else:
